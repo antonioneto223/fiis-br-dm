@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: bronze
+    schema: fiis_dm_source
+    tables:       
+      - name: hist_fiis
+        identifier: hist_fiis
+      - name: fiis_indexes
+        identifier: fiis_indexes_2024_01
