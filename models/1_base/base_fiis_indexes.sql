@@ -1,7 +1,7 @@
 {{ config(
           materialized='incremental',
           incremental_strategy='append',
-          unique_key=['ticker','date'],
+          unique_key=['ticker','updated_at'],
           alias='base_fiis_indexes',
           tags=['fiis_dm']
     )
