@@ -8,7 +8,7 @@
 }}
 
 select 
-    cast(Date as date) as Date
+    cast(Date as date) as Dates
     ,ticker
     ,open
     ,high
