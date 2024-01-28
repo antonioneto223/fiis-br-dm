@@ -1,6 +1,6 @@
 {{ config(
           materialized='incremental',
-          incremental_strategy='append',
+          incremental_strategy='merge',
           unique_key=['ticker','updated_at'],
           alias='base_fiis_indexes',
           tags=['fiis_dm']
